@@ -1,0 +1,1 @@
+{"type":"info","message":"Restoring database...","title":null}
