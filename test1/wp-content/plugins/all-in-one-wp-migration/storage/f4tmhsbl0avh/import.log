@@ -1,0 +1,18 @@
+Jun 24 2016 20:10:23
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M"}
+
+Jun 24 2016 20:10:24
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M","priority":"50"}
+
+Jun 24 2016 20:10:28
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M","priority":"150"}
+
+Jun 24 2016 20:10:28
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M","priority":"200","total_files":314,"total_size":8304364}
+
+Jun 24 2016 20:10:29
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M","priority":"250","total_files":"314","total_size":"8304364","content_offset":0,"archive_offset":9683120,"processed":8983441,"completed":true}
+
+Jun 24 2016 20:10:30
+{"action":"ai1wm_import","storage":"f4tmhsbl0avh","archive":"app.wpress","secret_key":"rSVreHTNVs3M","priority":"300","total_files":"314","total_size":"8304364","content_offset":"0","archive_offset":"9683120","processed":"8983441","completed":"1"}
+

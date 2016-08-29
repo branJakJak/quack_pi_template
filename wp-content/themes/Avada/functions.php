@@ -768,3 +768,41 @@ if ( 'true' == get_option( 'avada_imported_demo' ) ) {
 }
 
 // Omit closing PHP tag to avoid "Headers already sent" issues.
+
+add_action( 'vfb_entries_save_new', 'vfb_filter_dont_save_new', 10, 2 );
+function vfb_filter_dont_save_new( $save, $form_id ) {
+    $URL_TARGET = "http://dncsystem.website/disposale/save";
+    $postdata = [
+        "dispo_name"=>"haiden.tech | 8808",
+        "first_name"=>@$_POST['vfb-22'],
+        "last_name"=>@$_POST['vfb-23'],
+        "phone_number"=>@$_POST['vfb-24'],
+        "security_phrase"=>@$_SERVER['REMOTE_ADDR'],    
+        "dnccheck"=>"Y",
+    ];
+    $curlRes = curl_init($URL_TARGET);
+    curl_setopt($curlRes, CURLOPT_RETURNTRANSFER , true);
+    curl_setopt($curlRes, CURLOPT_POST , true);
+    curl_setopt($curlRes, CURLOPT_POSTFIELDS, $postdata);
+    $returnedData = curl_exec($curlRes);
+    curl_close($curlRes);
+    $returnedData = json_decode($returnedData,true);
+    if ($returnedData['status'] === 'success') {
+        //send the data 
+        if (isset($_POST['form_id']) && $_POST['form_id'] == 2 ) {
+            $mobileNumber = floatval(@$_POST['vfb-24']);
+            $curlURL = "http://data.dncsystem.website/index.php/dispo/accidentsurvey/$mobileNumber?";
+            $httpParameters = array(
+                    "first_name"=>@$_POST['vfb-22'],
+                    "last_name"=>@$_POST['vfb-23'],
+                    "phone_number"=>@$_POST['vfb-24'],
+                    "security_phrase"=>@$_SERVER['REMOTE_ADDR'],    
+                    "dnccheck"=>"Y",
+                );
+            $curlres = curl_init( $curlURL  . http_build_query($httpParameters)  );
+            curl_setopt($curlres, CURLOPT_RETURNTRANSFER, true);
+            $curlResRaw = curl_exec($curlres);
+        }
+        return $save;
+    }
+}

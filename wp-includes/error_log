@@ -1,0 +1,9 @@
+[23-Aug-2016 14:24:15 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home/haiden/public_html/wp-includes/class-wp-customize-section.php on line 378
+[23-Aug-2016 14:24:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/haiden/public_html/wp-includes/class-wp-customize-section.php on line 378
+[23-Aug-2016 14:40:41 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home/haiden/public_html/wp-includes/class-wp-customize-section.php on line 378
+[23-Aug-2016 14:40:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/haiden/public_html/wp-includes/class-wp-customize-section.php on line 378
+[23-Aug-2016 14:47:20 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/haiden/public_html/wp-includes/rss-functions.php on line 8
+[23-Aug-2016 15:04:33 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/haiden/public_html/wp-includes/rss-functions.php on line 8
+[24-Aug-2016 13:52:00 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/haiden/public_html/wp-includes/update.php on line 681
+[24-Aug-2016 14:05:30 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/haiden/public_html/wp-includes/update.php on line 681
+[24-Aug-2016 14:19:27 UTC] PHP Fatal error:  Call to undefined function is_main_site() in /home/haiden/public_html/wp-includes/update.php on line 681
