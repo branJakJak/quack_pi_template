@@ -1,3 +1,5 @@
 [09-Aug-2016 12:58:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/haiden/public_html/wp-content/themes/Avada/index.php on line 1
 [10-Aug-2016 22:15:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/haiden/public_html/wp-content/themes/Avada/index.php on line 1
 [24-Aug-2016 13:07:35 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/haiden/public_html/wp-content/themes/Avada/index.php on line 1
+[05-Sep-2016 09:40:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aocore/public_html/wp-content/themes/Avada/index.php on line 1
+[06-Sep-2016 14:52:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/aocore/public_html/wp-content/themes/Avada/index.php on line 1
